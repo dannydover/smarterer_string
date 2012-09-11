@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'smarterer_string'
-  s.version     = '1.0.0'
+  s.version     = '0.0.1'
   s.date        = '2012-09-11'
   s.summary     = "Smarter String!"
   s.description = "A simple gem for adding string manipulation functions"

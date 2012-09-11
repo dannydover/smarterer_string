@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name        = 'smarterer_string'
-  s.version     = '0.0.1'
+  s.version     = '0.0.3'
   s.date        = '2012-09-11'
-  s.summary     = "Smarter String!"
+  s.summary     = "Smarterer String!"
   s.description = "A simple gem for adding string manipulation functions"
   s.authors     = ["Danny Dover"]
   s.email       = 'danny@intriguingideas.com'

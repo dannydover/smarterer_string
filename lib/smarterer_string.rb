@@ -1,4 +1,4 @@
-module SmartererString
+class SmartererString
 
   # This function takes a string and an array of words to be obfuscated.
   # It returns a modified version of the original string with the applicable
@@ -6,7 +6,7 @@ module SmartererString
   # provided list of words.
   # The regex in the gsub function matches any whole word that is passed to it as the var 'word'
   
-  def obfuscate(string, list)
+  def self.obfuscate(string, list)
   
     list.each do |word|
       letters_in_word = word.length   
@@ -22,7 +22,7 @@ module SmartererString
   # This function takes the conservative route of splitting the string by anything 
   # non-alpha
 
-  def report(string, list)
+  def self.report(string, list)
     
     words = string.split(/[^a-zA-Z]/)
     frequency_hash = Hash.new(0)
